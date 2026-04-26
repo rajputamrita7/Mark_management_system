@@ -3,7 +3,7 @@
 ## 👨‍🎓 Student Details
 
 * **Name:** Amrita Saini
-* **USN:** 4al24cs038
+* **USN:** 4al24cs025
 * **Subject:** Advanced Java with J2EE
 
 ---
