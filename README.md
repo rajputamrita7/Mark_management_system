@@ -77,7 +77,7 @@ MarkWebApp/
 
 ## 🏠 Home Page
 
-* 🔗 [index.jsp](https://github.com/rajputamrita7/Mark_management_system/blob/main/WebContent/index.jsp)
+* 🔗 [index.jsp](src/main/webapp/index.jsp)
 
 📸 Screenshot
 ![Home](screenshots/home.png)
@@ -86,9 +86,9 @@ MarkWebApp/
 
 ## ➕ Add Mark
 
-* 🔗 JSP: [markadd.jsp](https://github.com/rajputamrita7/Mark_management_system/blob/main/WebContent/markadd.jsp)
-* 🔗 Servlet: [AddMarkServlet.java](https://github.com/rajputamrita7/Mark_management_system/blob/main/src/com/mark/servlet/AddMarkServlet.java)
-* 🔗 DAO: [MarkDAO.java](https://github.com/rajputamrita7/Mark_management_system/blob/main/src/com/mark/dao/MarkDAO.java)
+* 🔗 JSP: [markadd.jsp](src/main/webapp/markadd.jsp)
+* 🔗 Servlet: [AddMarkServlet.java](src/main/java/com/mark/servlet/AddMarkServlet.java)
+* 🔗 DAO: [MarkDAO.java](src/main/java/com/mark/dao/MarkDAO.java)
 
 📸 Screenshot
 ![Add](screenshots/add.png)
@@ -97,8 +97,8 @@ MarkWebApp/
 
 ## ✏️ Update Mark
 
-* 🔗 JSP: [markupdate.jsp](https://github.com/rajputamrita7/Mark_management_system/blob/main/WebContent/markupdate.jsp)
-* 🔗 Servlet: [UpdateMarkServlet.java](https://github.com/rajputamrita7/Mark_management_system/blob/main/src/com/mark/servlet/UpdateMarkServlet.java)
+* 🔗 JSP: [markupdate.jsp](src/main/webapp/markupdate.jsp)
+* 🔗 Servlet: [UpdateMarkServlet.java](src/main/java/com/mark/servlet/UpdateMarkServlet.java)
 
 📸 Screenshot
 ![Update](screenshots/update.png)
@@ -107,8 +107,8 @@ MarkWebApp/
 
 ## 🗑 Delete Mark
 
-* 🔗 JSP: [markdelete.jsp](https://github.com/rajputamrita7/Mark_management_system/blob/main/WebContent/markdelete.jsp)
-* 🔗 Servlet: [DeleteMarkServlet.java](https://github.com/rajputamrita7/Mark_management_system/blob/main/src/com/mark/servlet/DeleteMarkServlet.java)
+* 🔗 JSP: [markdelete.jsp](src/main/webapp/markdelete.jsp)
+* 🔗 Servlet: [DeleteMarkServlet.java](src/main/java/com/mark/servlet/DeleteMarkServlet.java)
 
 📸 Screenshot
 ![Delete](screenshots/delete.png)
@@ -117,8 +117,8 @@ MarkWebApp/
 
 ## 🔍 Display Mark
 
-* 🔗 JSP: [markdisplay.jsp](https://github.com/rajputamrita7/Mark_management_system/blob/main/WebContent/markdisplay.jsp)
-* 🔗 Servlet: [DisplayMarkServlet.java](https://github.com/rajputamrita7/Mark_management_system/blob/main/src/com/mark/servlet/DisplayMarkServlet.java)
+* 🔗 JSP: [markdisplay.jsp](src/main/webapp/markdisplay.jsp)
+* 🔗 Servlet: [DisplayMarkServlet.java](src/main/java/com/mark/servlet/DisplayMarkServlet.java)
 
 📸 Screenshot
 ![Display](screenshots/display.png)
@@ -129,7 +129,7 @@ MarkWebApp/
 
 ### 🔹 Report Form
 
-* 🔗 JSP: [report_form.jsp](https://github.com/rajputamrita7/Mark_management_system/blob/main/WebContent/report_form.jsp)
+* 🔗 JSP: [report_form.jsp](src/main/webapp/report_form.jsp)
 
 📸 Screenshot
 ![Report Form](screenshots/report_form.png)
@@ -138,7 +138,7 @@ MarkWebApp/
 
 ### 🔹 Report Results
 
-* 🔗 Servlet: [ReportServlet.java](https://github.com/rajputamrita7/Mark_management_system/blob/main/src/com/mark/servlet/ReportServlet.java)
+* 🔗 Servlet: [ReportServlet.java](src/main/java/com/mark/servlet/ReportServlet.java)
 
 📸 Screenshot
 ![Report](screenshots/report.png)
@@ -151,19 +151,19 @@ MarkWebApp/
 
 ## 🧠 Model
 
-* 🔗 [StudentMark.java](https://github.com/rajputamrita7/Mark_management_system/blob/main/src/com/mark/model/StudentMark.java)
+* 🔗 [StudentMark.java](src/main/java/com/mark/model/StudentMark.java)
 
 ---
 
 ## 🔌 DAO
 
-* 🔗 [MarkDAO.java](https://github.com/rajputamrita7/Mark_management_system/blob/main/src/com/mark/dao/MarkDAO.java)
+* 🔗 [MarkDAO.java](src/main/java/com/mark/dao/MarkDAO.java)
 
 ---
 
 ## 🎨 CSS
 
-* 🔗 [style.css](https://github.com/rajputamrita7/Mark_management_system/blob/main/WebContent/css/style.css)
+* 🔗 [style.css](src/main/webapp/css/style.css)
 
 ---
 
@@ -197,6 +197,8 @@ SELECT * FROM StudentMarks ORDER BY Marks DESC LIMIT N;
 4. Create database
 5. Run project
 
+
+---
 
 # 🧠 Conclusion
 
