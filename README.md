@@ -2,8 +2,8 @@
 
 ## 👨‍🎓 Student Details
 
-* **Name:** Ashithosh N
-* **USN:** (Your USN)
+* **Name:** Amrita Saini
+* **USN:** 4al24cs038
 * **Subject:** Advanced Java with J2EE
 
 ---
