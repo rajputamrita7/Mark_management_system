@@ -5,30 +5,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Students</title>
+    <title>Update Result</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="container-wide">
-    <p class="page-title">📋 All Students</p>
-    <p class="page-subtitle">Complete list of registered student mark records.</p>
+    <p class="page-title">✏️ Update Successful</p>
+    <p class="page-subtitle">The record has been updated. The highlighted row shows the change.</p>
+
+    <div class="alert alert-success">
+        ✔ <%= request.getAttribute("message") %>
+    </div>
 
     <%
         List<StudentMark> students = (List<StudentMark>) request.getAttribute("students");
+        Integer updatedId = (Integer) request.getAttribute("updatedId");
     %>
 
     <% if (students == null || students.isEmpty()) { %>
-    <div class="empty-state">
-        <p>📭 No student records found in the database.</p>
-        <br>
-        <a href="addMark" class="btn btn-primary">➕ Add First Student</a>
-    </div>
+    <div class="empty-state">📭 No student records found.</div>
     <% } else { %>
-
-    <div class="alert alert-info">
-        📊 Total Students: <strong><%= students.size() %></strong>
-    </div>
-
     <div class="table-wrapper">
         <table>
             <thead>
@@ -41,9 +37,11 @@
                 </tr>
             </thead>
             <tbody>
-            <% for (StudentMark s : students) { %>
-                <tr>
-                    <td><%= s.getStudentID() %></td>
+            <% for (StudentMark s : students) {
+                   boolean isUpdated = (updatedId != null && s.getStudentID() == updatedId);
+            %>
+                <tr class="<%= isUpdated ? "row-highlight" : "" %>">
+                    <td><%= s.getStudentID() %> <%= isUpdated ? "✏️" : "" %></td>
                     <td><%= s.getStudentName() %></td>
                     <td><%= s.getSubject() %></td>
                     <td><%= s.getMarks() %></td>
@@ -56,7 +54,7 @@
     <% } %>
 
     <div class="nav-bar">
-        <a href="addMark"   class="btn btn-primary">➕ Add Student</a>
+        <a href="updateMark" class="btn btn-primary">✏️ Update Another</a>
         <a href="index.jsp" class="btn btn-outline">🏠 Home</a>
     </div>
 </div>

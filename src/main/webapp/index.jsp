@@ -1,23 +1,43 @@
-<html>
+<%@ page contentType="text/html;charset=UTF-8" %>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks System</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
 <div class="container">
+    <h1 class="site-title">📚 Marks Manager</h1>
+    <p class="site-tagline">Student Marks Management System</p>
 
-<h1>Student Marks System</h1>
+    <div class="menu-grid">
+        <a href="addMark" class="menu-card">
+            <span class="icon">➕</span>
+            <div class="label">Add Student</div>
+            <div class="desc">Register a new record</div>
+        </a>
+        <a href="updateMark" class="menu-card">
+            <span class="icon">✏️</span>
+            <div class="label">Update Student</div>
+            <div class="desc">Edit existing record</div>
+        </a>
+        <a href="markdelete.jsp" class="menu-card">
+            <span class="icon">🗑️</span>
+            <div class="label">Delete Student</div>
+            <div class="desc">Remove a record</div>
+        </a>
+        <a href="displayMark" class="menu-card">
+            <span class="icon">📋</span>
+            <div class="label">Display All</div>
+            <div class="desc">View all students</div>
+        </a>
+    </div>
 
-<div class="menu">
-    <a href="markadd.jsp"> Add Mark</a>
-    <a href="markupdate.jsp"> Update Mark</a>
-    <a href="markdelete.jsp"> Delete Mark</a>
-    <a href="markdisplay.jsp"> Display Mark</a>
-    <a href="report_form.jsp"> Reports</a>
+    <a href="report_form.jsp" class="btn btn-outline btn-full" style="margin-top:14px;">
+        📊 Generate Reports
+    </a>
 </div>
-
-</div>
-
 </body>
 </html>
