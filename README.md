@@ -112,7 +112,7 @@ MarkWebApp/
 * Add Student card routes through `GetNextIdServlet` to pre-load the next ID
 
 📸 Screenshot
-![Home](images/home.png)
+![Home](screenshots/home.png)
 
 ---
 
@@ -134,10 +134,10 @@ MarkWebApp/
 * After insert: shows generated ID and full student detail card
 
 📸 Add Form
-![Add Student Form](images/add.png)
+![Add Student Form](screenshots/add.png)
 
 📸 Add Result
-![Add Student Result](images/add_result.png)
+![Add Student Result](screenshots/add_result.png)
 
 ---
 
@@ -156,13 +156,13 @@ MarkWebApp/
 * Validation same as Add module
 
 📸 Lookup Step
-![Update Lookup](images/update.png)
+![Update Lookup](screenshots/update.png)
 
 📸 Pre-filled Edit Form
-![Update Form](images/update_form.png)
+![Update Form](screenshots/update_form.png)
 
 📸 Update Result (highlighted row)
-![Update Result](images/update_result.png)
+![Update Result](screenshots/update_result.png)
 
 ---
 
@@ -182,13 +182,13 @@ MarkWebApp/
 * No accidental deletes — confirmation is mandatory
 
 📸 Lookup Step
-![Delete Lookup](images/delete.png)
+![Delete Lookup](screenshots/delete.png)
 
 📸 Confirmation Screen
-![Delete Confirm](images/delete_confirm.png)
+![Delete Confirm](screenshots/delete_confirm.png)
 
 📸 Deletion Result
-![Delete Result](images/delete_result.png)
+![Delete Result](screenshots/delete_result.png)
 
 ---
 
@@ -205,7 +205,7 @@ MarkWebApp/
 * Empty-state message when no records exist
 
 📸 Screenshot
-![Display](images/display.png)
+![Display](screenshots/display.png)
 
 ---
 
@@ -224,7 +224,7 @@ MarkWebApp/
 | Top N     | `ORDER BY Marks DESC LIMIT ?`          | N (number of students)  |
 
 📸 Report Form
-![Report Form](images/report_form.png)
+![Report Form](screenshots/report_form.png)
 
 ---
 
@@ -242,7 +242,7 @@ if (only max present)            → WHERE Marks <= max
 ```
 
 📸 Report Result
-![Report Result](images/report.png)
+![Report Result](screenshots/report.png)
 
 ---
 
