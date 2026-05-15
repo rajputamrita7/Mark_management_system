@@ -5,7 +5,7 @@
 | Field       | Details                   |
 |-------------|---------------------------|
 | **Name**    | Amrita Rajput             |
-| **USN**     | _(your USN here)_         |
+| **USN**     | 4AL24CS038                |
 | **Subject** | Advanced Java with J2EE   |
 
 ---
